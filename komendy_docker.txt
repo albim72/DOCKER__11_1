@@ -37,4 +37,5 @@ Komenda 23 -> aplikacje wieloetapowe -> wejdź do katalogu: cd image-of-the-day
             -> zbuduj obraz: docker build -t image-of-the-day .
             -> utwórz siec dockera:  docker network create nat
             -> uruchomienie kontenera na podstawie przygotowanego obrazu: docker run --name iotd -d -p 800:80 --network nat image-of-the-day  
+            -> otwórz stronę: localhost:800/image
 Komenda 24 ->
