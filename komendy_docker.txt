@@ -7,4 +7,7 @@ Komenda 4 -> podgląd listy działających kontenerów: docker container ls
 Komenda 5 -> podgląd listy procesów wybranym kontenerze: docker container top 000a1aeab38a; docker container logs 000a1aeab38a
 Komenda 6 -> podgląd wszystkich istniejących kontenerów: docker container ls --all
 Komenda 7 -> uruchomienie aplikacji webowej w tle: docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web , po wykonaniu komendy otwórz stronę: localhost:8088
-
+Komenda 8 -> podgląd wszystkich kontenerów: docker container ls --all
+Komenda 9 -> uruchomienie aplikacji webowej w tle: docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web
+Komenda 10 -> usuwanie wszystkich kontenrów dockera: docker container rm --force $(docker container ls --all --quiet)
+Komenda 11 -> usuwanie obrazu: docker rmi sha256:fe5a4c954fe2df5cadeea304ab632533f8ece9e31bd219ea22fdbf8b597571eb /id obrazu/
