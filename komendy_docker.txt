@@ -15,7 +15,7 @@ Komenda 12 -> pobieranie obrazu kontenera: docker image pull diamol/ch03-web-pin
 Komenda 13 -> wykonanie kontenera na podstawie pobranego obrazu: docker container run -d --name web-ping diamol/ch03-web-ping
 Komenda 14 -> przekształcenie pliku dockerfile w obraz Dockera: docker image build --tag web-ping .
 Komenda 15 -> wyświetlenie wszystkch obrazów zaczynających się na literę 'w': docker image ls 'w*'
-Komenda 16 ->
+Komenda 16 -> uruchomienie kontenera na podstawie utworzonego obrazu web-ping:  docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
 Komenda 17 ->
 Komenda 18 ->
 Komenda 19 ->
