@@ -13,3 +13,4 @@ Komenda 10 -> usuwanie wszystkich kontenrów dockera: docker container rm --forc
 Komenda 11 -> usuwanie obrazu: docker rmi sha256:fe5a4c954fe2df5cadeea304ab632533f8ece9e31bd219ea22fdbf8b597571eb /id obrazu/
 Komenda 12 -> pobieranie obrazu kontenera: docker image pull diamol/ch03-web-ping
 Komenda 13 -> wykonanie kontenera na podstawie pobranego obrazu: docker container run -d --name web-ping diamol/ch03-web-ping
+Komenda 14 -> przekształcenie pliku dockerfile w obraz Dockera: docker image build --tag web-ping .
