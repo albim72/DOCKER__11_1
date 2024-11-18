@@ -14,3 +14,9 @@ Komenda 11 -> usuwanie obrazu: docker rmi sha256:fe5a4c954fe2df5cadeea304ab63253
 Komenda 12 -> pobieranie obrazu kontenera: docker image pull diamol/ch03-web-ping
 Komenda 13 -> wykonanie kontenera na podstawie pobranego obrazu: docker container run -d --name web-ping diamol/ch03-web-ping
 Komenda 14 -> przekształcenie pliku dockerfile w obraz Dockera: docker image build --tag web-ping .
+Komenda 15 -> wyświetlenie wszystkch obrazów zaczynających się na literę 'w': docker image ls 'w*'
+Komenda 16 ->
+Komenda 17 ->
+Komenda 18 ->
+Komenda 19 ->
+Komenda 20 ->
