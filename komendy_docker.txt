@@ -18,5 +18,9 @@ Komenda 15 -> wyświetlenie wszystkch obrazów zaczynających się na literę 'w
 Komenda 16 -> uruchomienie kontenera na podstawie utworzonego obrazu web-ping:  docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
 Komenda 17 -> historia obrazu web-ping: docker image history web-ping
 Komenda 18 -> lista obrazów: docker image ls
-Komenda 19 ->
+Komenda 19 -> wyświetlenie zajętości pamięciowej elementów dockera: docker system df
 Komenda 20 ->
+Komenda 21 ->
+Komenda 22 ->
+Komenda 23 ->
+Komenda 24 ->
