@@ -38,4 +38,11 @@ Komenda 23 -> aplikacje wieloetapowe -> wejdź do katalogu: cd image-of-the-day
             -> utwórz siec dockera:  docker network create nat
             -> uruchomienie kontenera na podstawie przygotowanego obrazu: docker (container) run --name iotd -d -p 800:80 --network nat image-of-the-day  
             -> otwórz stronę: localhost:800/image
+Komenda 24 -> Program w pythonie: zbuduj program python_sigmoid, napisz Dockerfile - pliki dołączone, zaistaluj numpy
+              -> orzygotuj obraz - instalaując plugin Docker dla pycharm i uruchamiając program na dockerze lub
+              -> wejdź do katalogu projektu pythona i zadaja komendę: docker build -t sigmoid-python
+              -> uruchom interaktywnie kontener: docker container run --interactive --tty sigmoid-python
+Komenda 24 ->
+Komenda 24 ->
+Komenda 24 ->
 Komenda 24 ->
