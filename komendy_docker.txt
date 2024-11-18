@@ -5,3 +5,6 @@ Komenda 2 -> uruchomienie konteneraz z pakietu diamol: docker container run diam
 Komenda 3 -> uruchomienie interakcyjnego kontenera: docker container run --interactive --tty diamol/base
 Komenda 4 -> podgląd listy działających kontenerów: docker container ls
 Komenda 5 -> podgląd listy procesów wybranym kontenerze: docker container top 000a1aeab38a; docker container logs 000a1aeab38a
+Komenda 6 -> podgląd wszystkich istniejących kontenerów: docker container ls --all
+Komenda 7 -> uruchomienie aplikacji webowej w tle: docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web , po wykonaniu komendy otwórz stronę: localhost:8088
+
