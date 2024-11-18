@@ -42,7 +42,8 @@ Komenda 24 -> Program w pythonie: zbuduj program python_sigmoid, napisz Dockerfi
               -> orzygotuj obraz - instalaując plugin Docker dla pycharm i uruchamiając program na dockerze lub
               -> wejdź do katalogu projektu pythona i zadaja komendę: docker build -t sigmoid-python
               -> uruchom interaktywnie kontener: docker container run --interactive --tty sigmoid-python
-Komenda 24 ->
+Komenda 24 -> Uruchamianie aplikacji wielkontenerowych: musi być zdana sieć Dockera (mamy utworzoną sieć nat) - wchodzi w katalog aplikacji: cd diamol/ch07/exercises/to-list
+            -> uruchamiasz aplikcję: docker-compose up
 Komenda 24 ->
 Komenda 24 ->
 Komenda 24 ->
