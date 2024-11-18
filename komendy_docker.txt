@@ -17,6 +17,6 @@ Komenda 14 -> przekształcenie pliku dockerfile w obraz Dockera: docker image bu
 Komenda 15 -> wyświetlenie wszystkch obrazów zaczynających się na literę 'w': docker image ls 'w*'
 Komenda 16 -> uruchomienie kontenera na podstawie utworzonego obrazu web-ping:  docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
 Komenda 17 -> historia obrazu web-ping: docker image history web-ping
-Komenda 18 ->
+Komenda 18 -> lista obrazów: docker image ls
 Komenda 19 ->
 Komenda 20 ->
