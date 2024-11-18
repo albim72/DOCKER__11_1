@@ -33,5 +33,8 @@ Komenda 21 -> zmodyfikuj plik Dockerfile aplikacji web-ping:
                   COPY app.js 
 
 Komenda 22 -> budowa wersji 3: docker image build -t web-ping:v3 .
-Komenda 23 ->
+Komenda 23 -> aplikacje wieloetapowe -> wejdź do katalogu: cd image-of-the-day
+            -> zbuduj obraz: docker build -t image-of-the-day .
+            -> utwórz siec dockera:  docker network create nat
+            -> uruchomienie kontenera na podstawie przygotowanego obrazu: docker run --name iotd -d -p 800:80 --network nat image-of-the-day  
 Komenda 24 ->
