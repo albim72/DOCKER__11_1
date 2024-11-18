@@ -1,0 +1,3 @@
+Komendy platfor,y DOCKER:
+
+Komenda 1 -> wersja dockera: docker version
