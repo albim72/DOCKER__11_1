@@ -19,8 +19,19 @@ Komenda 16 -> uruchomienie kontenera na podstawie utworzonego obrazu web-ping:  
 Komenda 17 -> historia obrazu web-ping: docker image history web-ping
 Komenda 18 -> lista obrazów: docker image ls
 Komenda 19 -> wyświetlenie zajętości pamięciowej elementów dockera: docker system df
-Komenda 20 ->
-Komenda 21 ->
+Komenda 20 -> budowanie drugiej wersji obrazu po drobnej modyfikacji pliku app.js: docker image build -t web-ping:v2 .
+Komenda 21 -> zmodyfikuj plik Dockerfile aplikacji web-ping: 
+                  FROM diamol/node
+
+                  CMD ["node", "/web-ping/app.js"]
+                  
+                  ENV TARGET="blog.sixeyed.com" \
+                  	METHOD="HEAD" \
+                  	INTERVAL="3000"
+                  
+                  WORKDIR /web-ping
+                  COPY app.js 
+
 Komenda 22 ->
 Komenda 23 ->
 Komenda 24 ->
